@@ -1,0 +1,65 @@
+/* Mobile language selector styles (legacy components) */
+
+/* These styles are kept for backwards compatibility with any remaining components */
+
+/* Estilo para os botões de seleção */
+.mobile-selector-button {
+  max-width: 140px;
+  min-width: 100px;
+  position: relative;
+  margin-left: 10px;
+}
+
+/* Estilo para os selects nativos */
+.selector-form {
+  position: relative;
+}
+
+.selector-select {
+  width: 100%;
+  appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+  color: transparent;
+  border: none;
+  padding: 10px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 10;
+  cursor: pointer;
+}
+
+/* Estilo para os labels que aparecem no lugar dos selects */
+.selector-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 6px 8px;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  font-size: 12px;
+  color: #333;
+  pointer-events: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Garantir que o header não seja afetado no desktop */
+body {
+  padding-top: 0 !important;
+}
+
+header.header {
+  margin-top: 0 !important;
+}
+
+/* Fix para o conteúdo da página - adicionar padding-bottom */
+.page-width {
+  padding-bottom: 60px;
+}

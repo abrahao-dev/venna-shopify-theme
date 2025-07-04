@@ -1,0 +1,97 @@
+/* Correção para o espaço em branco no header mobile */
+
+/* Reset completo do espaço topo da página */
+body {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* Reset para cabeçalho */
+header.header {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Fix para o seletor de idioma sem causar espaço em branco */
+.language-selector-container {
+  height: 40px;
+}
+
+/* Correção específica para mobile */
+@media (max-width: 768px) {
+  /* Remove padding/margin específico para mobile */
+  body, html {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  /* Ajuste para o cabeçalho e logo */
+  header.header {
+    padding-top: 0 !important;
+    margin-top: 40px !important; /* Exatamente a altura do seletor de idiomas */
+  }
+
+  /* Garantir que o conteúdo principal também não tenha espaçamento superior */
+  main, .main-content {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  /* Reset para qualquer z-index problemático */
+  body > div[style*="position: fixed"] {
+    z-index: -1 !important;
+  }
+
+  /* Fix específico para páginas que têm classes especiais */
+  .template-cart header.header,
+  .template-cart .header {
+    margin-top: 40px !important;
+  }
+
+  /* Reduzir espaço extra em qualquer outro componente do header */
+  .header__logo {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}
+
+/* Fix para dispositivos iOS específicos */
+@supports (-webkit-touch-callout: none) {
+  @media (max-width: 768px) {
+    /* iOS precisa de ajustes mais específicos */
+    .header {
+      margin-top: 40px !important;
+    }
+  }
+}
+
+/* Language selector é exibido em todas as páginas */
+/* Removido o seletor que ocultava o language selector fora da página do carrinho */
+
+/* Correção para espaçamento no desktop */
+@media (min-width: 769px) {
+  header.header {
+    margin-top: 30px !important;
+  }
+}
+
+/* Correção para a borda/linha tremendo abaixo do header */
+.header__cutout.cutout {
+  transform: translateZ(0); /* Força o uso da aceleração de hardware */
+  backface-visibility: hidden; /* Reduz tremores em alguns navegadores */
+  will-change: transform; /* Otimiza para animações/transições */
+  position: fixed !important; /* Impede que se mova com o scroll */
+  height: 1px !important; /* Altura fixa para evitar cálculos dinâmicos */
+  z-index: 5; /* Garante que fique acima do conteúdo principal */
+  display: block !important; /* Garante que o elemento seja exibido mesmo com inline style */
+  border-bottom: 1px solid rgba(var(--color-foreground), 0.08); /* Adiciona uma borda sutil */
+  width: 100%; /* Garante que ocupe toda a largura */
+  pointer-events: none; /* Permite cliques através do elemento */
+}
+
+/* Ajuste para telas muito pequenas */
+@media (max-width: 360px) {
+  .language-selector-container {
+    padding: 4px 8px;
+  }
+}

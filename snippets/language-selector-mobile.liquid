@@ -1,0 +1,64 @@
+{%- liquid
+  if section.settings.enable_language_selector and localization.available_languages.size > 1
+    assign enable_language_selector = true
+  endif
+  if section.settings.enable_country_selector and localization.available_countries.size > 1
+    assign enable_country_selector = true
+  endif
+  
+  # Removido verificação da página do carrinho, agora o seletor aparece em todas as páginas
+-%}
+
+{%- if enable_language_selector or enable_country_selector -%}
+  <div class="language-selector-container">
+    {%- if enable_language_selector -%}
+      <div class="mobile-selector-button">
+        {%- form 'localization', id: 'LanguageFormMobile', class: 'selector-form' -%}
+          <select name="locale_code" id="LocaleSelector" class="selector-select" aria-label="Idioma" onchange="this.form.submit();">
+            {%- for language in localization.available_languages -%}
+              <option value="{{ language.iso_code }}" {% if language.iso_code == localization.language.iso_code %}selected{% endif %}>
+                {{ language.endonym_name | capitalize }}
+              </option>
+            {%- endfor -%}
+          </select>
+          <label for="LocaleSelector" class="selector-label">
+            {%- render 'icon', icon: 'language', size: 'xs' -%}
+            {%- if localization.language.iso_code == 'pt-BR' or localization.language.iso_code == 'pt-PT' or localization.language.iso_code == 'pt' -%}
+              {{ 'Idioma' | escape }}
+            {%- elsif localization.language.iso_code == 'es' -%}
+              {{ 'Idioma' | escape }}
+            {%- else -%}
+              {{ 'Language' | escape }}
+            {%- endif -%}
+          </label>
+          <input type="hidden" name="return_to" value="{{ request.path }}">
+        {%- endform -%}
+      </div>
+    {%- endif -%}
+    
+    {%- if enable_country_selector -%}
+      <div class="mobile-selector-button">
+        {%- form 'localization', id: 'CountryFormMobile', class: 'selector-form' -%}
+          <select name="country_code" id="CountrySelector" class="selector-select" aria-label="País/moeda" onchange="this.form.submit();">
+            {%- for country in localization.available_countries -%}
+              <option value="{{ country.iso_code }}" {% if country.iso_code == localization.country.iso_code %}selected{% endif %}>
+                {{ country.name }} ({{ country.currency.iso_code }})
+              </option>
+            {%- endfor -%}
+          </select>
+          <label for="CountrySelector" class="selector-label">
+            {%- render 'icon', icon: 'globe', size: 'xs' -%}
+            {%- if localization.language.iso_code == 'pt-BR' or localization.language.iso_code == 'pt-PT' or localization.language.iso_code == 'pt' -%}
+              {{ 'País/moeda' | escape }}
+            {%- elsif localization.language.iso_code == 'es' -%}
+              {{ 'País/moneda' | escape }}
+            {%- else -%}
+              {{ 'Country/currency' | escape }}
+            {%- endif -%}
+          </label>
+          <input type="hidden" name="return_to" value="{{ request.path }}">
+        {%- endform -%}
+      </div>
+    {%- endif -%}
+  </div>
+{%- endif -%}

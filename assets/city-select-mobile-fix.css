@@ -1,0 +1,71 @@
+/* Melhorias no select de cidades para mobile */
+
+/* Estilo para o container de campos do checkout */
+.campo-checkout.personalizado .field-select {
+  font-size: 16px !important; /* Tamanho de fonte mais legível no mobile */
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  z-index: 10;
+}
+
+.campo-checkout.personalizado .field-select:focus {
+  outline: none;
+}
+
+/* Estilo para as opções do dropdown */
+.campo-checkout.personalizado .field-select option {
+  white-space: normal;
+  font-size: 16px !important;
+  line-height: 1.4;
+  padding: 8px 12px;
+}
+
+/* Estilos específicos para mobile */
+@media (max-width: 768px) {
+  .campo-checkout.personalizado {
+    position: relative;
+    margin-bottom: 16px;
+  }
+  
+  .campo-checkout.personalizado .field-select {
+    position: relative;
+    z-index: 50; /* Z-index elevado para evitar sobreposições */
+    max-height: 46px; /* Altura consistente com outros campos */
+    padding: 10px 12px;
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='7' viewBox='0 0 12 7' fill='none'%3E%3Cpath d='M1 1L6 6L11 1' stroke='%23333333' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 12px) center;
+    background-size: 12px;
+    padding-right: 35px; /* Espaço para o ícone de seta */
+  }
+  
+  /* Correção para a abertura do dropdown */
+  .campo-checkout.personalizado .field-label {
+    font-size: 14px;
+    margin-bottom: 6px;
+    display: block;
+  }
+  
+  /* Aumenta a altura do dropdown para acomodar textos longos */
+  .campo-checkout.personalizado .field-select[size],
+  .campo-checkout.personalizado .field-select[multiple] {
+    height: auto;
+  }
+  
+  /* Estilo especial para as opções do dropdown no iOS */
+  @supports (-webkit-touch-callout: none) {
+    .campo-checkout.personalizado .field-select option {
+      font-size: 16px !important;
+    }
+  }
+}
+
+/* Ajustes específicos para a exibição das cidades com bairros */
+#checkout-city option {
+  white-space: normal;
+  min-height: 40px;
+  text-overflow: ellipsis;
+}

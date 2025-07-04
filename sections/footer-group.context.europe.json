@@ -1,0 +1,27 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "footer-group.json",
+  "context": {
+    "market": "europe"
+  },
+  "sections": {
+    "footer": {
+      "settings": {},
+      "blocks": {
+        "text_nQQife": {
+          "settings": {
+            "text": "<p><a href=\"/products/one-time\" title=\"One-Time\">One-Time</a><br/><a href=\"/products/1-month\" title=\"1-Month Plan\">1-Month</a><br/><a href=\"/products/3-month\" title=\"3-Month Plan\">3-Month</a><br/><a href=\"/products/6-month\" title=\"6-Month Plan\">6-Month</a><br/><a href=\"/products/share-the-venna-experience\" title=\"Share the Venna experience\">The Gift</a></p>"
+          }
+        }
+      }
+    }
+  }
+}
