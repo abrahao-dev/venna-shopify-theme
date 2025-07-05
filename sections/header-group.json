@@ -1,1 +1,100 @@
-{"type":"header","name":"t:sections.header-group.name","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"announcement-1":{"type":"announcement","disabled":true,"settings":{"icon":"truck","text":"Free shipping and returns","link":"","hide_icon_mobile":true,"text_mobile":"","highlighted_text":"none","highlighted_scribble":"circle"}},"announcement-2":{"type":"announcement","disabled":true,"settings":{"icon":"email","text":"A question? Visit our contact page","link":"","hide_icon_mobile":true,"text_mobile":"","highlighted_text":"none","highlighted_scribble":"circle"}}},"block_order":["announcement-1","announcement-2"],"disabled":true,"settings":{"show_social":true,"enable_language_selector":true,"enable_country_selector":true,"invert_icons_selectors":false,"announcement_position":"center","autoplay":true,"autoplay_speed":5,"show_navigation":true,"color_text":"#fafafa","color_background":"#1f1f1f","gradient_background":"","color_highlight":"#ffddbf","gradient_highlight":"","hide_homepage":false,"full_width":true,"rounded":true}},"header":{"type":"header","custom_css":[],"settings":{"menu":"main-menu","menu_mobile":"","menu_active":"dot","hover_menu":false,"header_layout":"center-drawer","sticky_header_type":"on-scroll-up","enable_language_selector_desktop":true,"enable_country_selector_desktop":true,"show_country_name_dekstop":false,"show_country_flag_desktop":false,"logo_position_mobile":"left","show_social":false,"enable_language_selector":true,"enable_country_selector":false,"transparent_color_text":"#ffffff","color_text":"#000000","color_background":"#eeefea","padding_top":12,"padding_bottom":12,"full_width":true,"rounded":false}}},"order":["announcement-bar","header"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "t:sections.header-group.name",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-1": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "icon": "truck",
+            "text": "Free shipping and returns",
+            "link": "",
+            "hide_icon_mobile": true,
+            "text_mobile": "",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "announcement-2": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "icon": "email",
+            "text": "A question? Visit our contact page",
+            "link": "",
+            "hide_icon_mobile": true,
+            "text_mobile": "",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "announcement-1",
+        "announcement-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_social": true,
+        "enable_language_selector": true,
+        "enable_country_selector": true,
+        "invert_icons_selectors": false,
+        "announcement_position": "center",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "show_navigation": true,
+        "color_text": "#fafafa",
+        "color_background": "#1f1f1f",
+        "gradient_background": "",
+        "color_highlight": "#ffddbf",
+        "gradient_highlight": "",
+        "hide_homepage": false,
+        "full_width": true,
+        "rounded": true
+      }
+    },
+    "header": {
+      "type": "header",
+      "custom_css": [],
+      "settings": {
+        "menu": "main-menu",
+        "menu_mobile": "",
+        "menu_active": "dot",
+        "hover_menu": false,
+        "header_layout": "center-drawer",
+        "sticky_header_type": "on-scroll-up",
+        "enable_language_selector_desktop": true,
+        "enable_country_selector_desktop": true,
+        "show_country_name_dekstop": false,
+        "show_country_flag_desktop": false,
+        "logo_position_mobile": "left",
+        "show_social": false,
+        "enable_language_selector": true,
+        "enable_country_selector": true,
+        "transparent_color_text": "#ffffff",
+        "color_text": "#000000",
+        "color_background": "#eeefea",
+        "padding_top": 12,
+        "padding_bottom": 12,
+        "full_width": true,
+        "rounded": false
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}
