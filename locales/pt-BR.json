@@ -626,5 +626,19 @@
       "signup_form_success": "We will send you an email right before we open!",
       "password_link": "Enter using password"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "thank_you": {
+        "announcement": {
+          "close": "Fechar"
+        }
+      }
+    }
+  },
+  "customer_accounts": {
+    "privacy_banner": {
+      "cookie_preferences_link": "Preferências de cookies"
+    }
   }
 }
