@@ -99,6 +99,7 @@
         "column_eFrhdf",
         "column_feTaqg"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {font-family: Mabry, sans-serif; text-transform: uppercase; font-size: 1.4rem; line-height: 1.1; margin-top: 10px;}",
         "em {font-style: normal; color: #62010a;}",
