@@ -1,1 +1,245 @@
-{"sections":{"main-collection-banner":{"type":"main-collection-banner","disabled":true,"settings":{"transparent_header":true,"show_image":true,"image_height":"750px","content_position":"md:items-end md:justify-start","text_alignment":"left","image_height_mobile":"auto","content_position_mobile":"items-end justify-start","text_alignment_mobile":"left","color_text":"#ffffff","color_overlay":"#000000","overlay_opacity":40,"padding_top":0,"padding_bottom":0,"divider":false,"full_width":true,"rounded":true,"enable_parallax":true,"parallax_direction":"vertical"}},"multicolumn_x3iAPQ":{"type":"multicolumn","blocks":{"column_4ExzCe":{"type":"column","settings":{"show_border":false,"text_alignment":"left","text_alignment_mobile":"left","image_ratio":"adapt","heading":"","heading_size":"text-lg-2xl","text":"<h5>Your table awaits.<\/h5><h2>A PERSONAL NOTE <\/h2>","button_label":"","button_link":"","button_style":"secondary","button_external":false,"button_icon":true,"highlighted_text":"none","highlighted_scribble":"circle"}},"column_8X4rFU":{"type":"column","settings":{"show_border":false,"text_alignment":"left","text_alignment_mobile":"left","image_ratio":"adapt","heading":"","heading_size":"text-lg-2xl","text":"","button_label":"","button_link":"","button_style":"secondary","button_external":false,"button_icon":true,"highlighted_text":"text","highlighted_scribble":"circle"}},"column_DYiGTR":{"type":"column","settings":{"show_border":false,"text_alignment":"left","text_alignment_mobile":"left","image_ratio":"adapt","heading":"","heading_size":"text-lg-2xl","text":"<p>We've noticed something beautiful: the longer you're part of Venna, the <em>richer<\/em> the experience becomes. Whether you start with a month or a year-long commitment, you'll find yourself at a table where you <em>belong<\/em>.<\/p>","button_label":"","button_link":"","button_style":"secondary","button_external":false,"button_icon":true,"highlighted_text":"text","highlighted_scribble":"circle"}},"column_78YwWU":{"type":"column","settings":{"show_border":false,"text_alignment":"left","text_alignment_mobile":"left","image_ratio":"adapt","heading":"","heading_size":"text-lg-2xl","text":"<p>It's about those moments when you walk in and feel the incredible energy, when inside jokes are created, and when Thursday dinners and Sunday brunches become the best part of your week.<\/p>","button_label":"","button_link":"","button_style":"secondary","button_external":false,"button_icon":true,"highlighted_text":"text","highlighted_scribble":"circle"}},"column_6Yaqm7":{"type":"column","settings":{"show_border":false,"text_alignment":"left","text_alignment_mobile":"left","image_ratio":"adapt","heading":"","heading_size":"text-lg-2xl","text":"","button_label":"","button_link":"","button_style":"secondary","button_external":false,"button_icon":true,"highlighted_text":"none","highlighted_scribble":"circle"}}},"block_order":["column_4ExzCe","column_8X4rFU","column_DYiGTR","column_78YwWU","column_6Yaqm7"],"custom_css":["h2 {font-family: Mabry, sans-serif; text-transform: uppercase; font-size: 1.4rem; line-height: 1.1; margin-top: 10px;}","em {font-style: normal; color: #62010a;}","h5,.h5 {font-family: \"GT-America-Standard-Regular\", Arial, sans-serif; font-size: 14px; letter-spacing: -0.1px !important; color: #123450;}",".media {width: 50%;}","@media only screen and (max-width: 1276px) {.card:nth-child(2), .card:nth-child(5) {display: none; }}","@media only screen and (max-width: 600px) {.media {width: 100%; }}"],"settings":{"gap":"medium","columns":4,"columns_mobile":"1","swipe_on_mobile":false,"heading":"","heading_size":"title-md","heading_alignment":"text-center md:items-center","heading_tag":"h2","subheading":"","description":"","button_label":"","button_link":"","button_external":false,"button_icon":false,"highlighted_text":"text","highlighted_scribble":"circle","color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":68,"padding_bottom":36,"divider":false,"full_width":true,"rounded":false}},"main-collection":{"type":"main-collection","custom_css":[".product-card__title {font-family: \"Mabry\", sans-serif !important; font-weight: 300; font-size: 16px !important; text-transform: uppercase;}",".price__regular {font-family: \"Mabry\", sans-serif !important; font-weight: 300; font-size: 16px !important;}",".product-card__top .caption {font-family: AcademicaLightPro-Italic, serif !important; font-weight: 300; font-size: 14px !important; text-transform: none; letter-spacing: 0; color: #123450;}"],"settings":{"products_per_page":11,"columns":4,"columns_mobile":"2","pagination":"infinite","enable_filtering":false,"filter_collapsed":false,"filter_type":"drawer","filter_color_swatches":false,"enable_sorting":false,"padding_top":0,"padding_bottom":68,"divider":false,"full_width":true,"rounded":true}},"recently-viewed":{"type":"recently-viewed","disabled":true,"settings":{"product_limit":6,"columns":4,"carousel_on_desktop":true,"columns_mobile":"1","swipe_on_mobile":true,"heading":"Recently Viewed","heading_size":"title-md","heading_alignment":"text-left md:items-end md:flex-row","heading_tag":"h2","subheading":"","description":"","highlighted_text":"none","highlighted_scribble":"circle","color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":72,"padding_bottom":80,"divider":false,"full_width":false,"rounded":true}}},"order":["main-collection-banner","multicolumn_x3iAPQ","main-collection","recently-viewed"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "transparent_header": true,
+        "show_image": true,
+        "image_height": "750px",
+        "content_position": "md:items-end md:justify-start",
+        "text_alignment": "left",
+        "image_height_mobile": "auto",
+        "content_position_mobile": "items-end justify-start",
+        "text_alignment_mobile": "left",
+        "color_text": "#ffffff",
+        "color_overlay": "#000000",
+        "overlay_opacity": 40,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": true,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    },
+    "multicolumn_x3iAPQ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_4ExzCe": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image_ratio": "adapt",
+            "heading": "",
+            "heading_size": "text-lg-2xl",
+            "text": "<h5>Your table awaits.</h5><h2>A PERSONAL NOTE </h2>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_8X4rFU": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image_ratio": "adapt",
+            "heading": "",
+            "heading_size": "text-lg-2xl",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "text",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_DYiGTR": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image_ratio": "adapt",
+            "heading": "",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Esqueça os presentes óbvios. Ofereça algo que emociona, conecta e fica na memória: uma experiência Venna.<br/><br/>Seja um jantar ou brunch surpresa com desconhecidos que viram companhia, ou um mês inteiro de jantares à mesa, cheios de boas conversas, risadas  e descobertas este é o presente ideal para aquele amigo ou familiar que merece viver algo novo.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "text",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_78YwWU": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image_ratio": "adapt",
+            "heading": "",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Pode ser para celebrar, agradecer, retribuir ou simplesmente surpreender. Qualquer que seja o motivo, oferecer uma experiência Venna é um gesto de carinho que fica para sempre.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "text",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_6Yaqm7": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image_ratio": "adapt",
+            "heading": "",
+            "heading_size": "text-lg-2xl",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_4ExzCe",
+        "column_8X4rFU",
+        "column_DYiGTR",
+        "column_78YwWU",
+        "column_6Yaqm7"
+      ],
+      "custom_css": [
+        "h2 {font-family: Mabry, sans-serif; text-transform: uppercase; font-size: 1.4rem; line-height: 1.1; margin-top: 10px;}",
+        "em {font-style: normal; color: #62010a;}",
+        "h5,.h5 {font-family: \"GT-America-Standard-Regular\", Arial, sans-serif; font-size: 14px; letter-spacing: -0.1px !important; color: #123450;}",
+        ".media {width: 50%;}",
+        "@media only screen and (max-width: 1276px) {.card:nth-child(2), .card:nth-child(5) {display: none; }}",
+        "@media only screen and (max-width: 600px) {.media {width: 100%; }}"
+      ],
+      "settings": {
+        "gap": "medium",
+        "columns": 4,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": false,
+        "highlighted_text": "text",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 68,
+        "padding_bottom": 36,
+        "divider": false,
+        "full_width": true,
+        "rounded": false
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "custom_css": [
+        ".product-card__title {font-family: \"Mabry\", sans-serif !important; font-weight: 300; font-size: 16px !important; text-transform: uppercase;}",
+        ".price__regular {font-family: \"Mabry\", sans-serif !important; font-weight: 300; font-size: 16px !important;}",
+        ".product-card__top .caption {font-family: AcademicaLightPro-Italic, serif !important; font-weight: 300; font-size: 14px !important; text-transform: none; letter-spacing: 0; color: #123450;}"
+      ],
+      "settings": {
+        "products_per_page": 11,
+        "columns": 4,
+        "columns_mobile": "2",
+        "pagination": "infinite",
+        "enable_filtering": false,
+        "filter_collapsed": false,
+        "filter_type": "drawer",
+        "filter_color_swatches": false,
+        "enable_sorting": false,
+        "padding_top": 0,
+        "padding_bottom": 68,
+        "divider": false,
+        "full_width": true,
+        "rounded": true
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {
+        "product_limit": 6,
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Recently Viewed",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 80,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    }
+  },
+  "order": [
+    "main-collection-banner",
+    "multicolumn_x3iAPQ",
+    "main-collection",
+    "recently-viewed"
+  ]
+}
