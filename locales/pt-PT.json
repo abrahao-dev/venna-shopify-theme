@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "404": {
@@ -559,15 +568,15 @@
       "expanded": "Formulário de destinatário do cartão de oferta expandido",
       "collapsed": "Formulário de destinatário do cartão de oferta fechado",
       "email_label": "E-mail do destinatário",
-      "email_label_optional_for_no_js_behavior": "E-mail do destinatário (opcional)",
+      "email_label_optional_for_no_js_behavior": "E-mail do destinatário ",
       "email": "E-mail",
-      "name_label": "Nome do destinatário (opcional)",
+      "name_label": "Nome do destinatário ",
       "name": "Nome",
-      "message_label": "Mensagem (opcional)",
+      "message_label": "Mensagem ",
       "message": "Mensagem",
       "max_characters": "Máximo de {{ max_chars }} caracteres",
       "send_on": "AAAA-MM-DD",
-      "send_on_label": "Enviar a (opcional)"
+      "send_on_label": "Enviar a "
     }
   },
   "date_formats": {
