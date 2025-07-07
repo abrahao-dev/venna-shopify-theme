@@ -36,7 +36,7 @@
     "multicolumn_x3iAPQ": {
       "type": "multicolumn",
       "blocks": {
-        "column_4ExzCe": {
+        "column_DYiGTR": {
           "type": "column",
           "settings": {
             "show_border": false,
@@ -45,26 +45,7 @@
             "image_ratio": "adapt",
             "heading": "",
             "heading_size": "text-lg-2xl",
-            "text": "<h5>Your table awaits.</h5><h2>A PERSONAL NOTE </h2>",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "secondary",
-            "button_external": false,
-            "button_icon": true,
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "column_8X4rFU": {
-          "type": "column",
-          "settings": {
-            "show_border": false,
-            "text_alignment": "left",
-            "text_alignment_mobile": "left",
-            "image_ratio": "adapt",
-            "heading": "",
-            "heading_size": "text-lg-2xl",
-            "text": "",
+            "text": "<p>Esqueça os presentes óbvios. Ofereça algo que emociona, conecta e fica na memória: uma experiência Venna.</p>",
             "button_label": "",
             "button_link": "",
             "button_style": "secondary",
@@ -74,7 +55,7 @@
             "highlighted_scribble": "circle"
           }
         },
-        "column_DYiGTR": {
+        "column_4KHEc4": {
           "type": "column",
           "settings": {
             "show_border": false,
@@ -93,7 +74,26 @@
             "highlighted_scribble": "circle"
           }
         },
-        "column_78YwWU": {
+        "column_eFrhdf": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image_ratio": "adapt",
+            "heading": "",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Seja um jantar ou brunch surpresa com desconhecidos que viram companhia, ou um mês inteiro de jantares à mesa, cheios de boas conversas, risadas  e descobertas este é o presente ideal para aquele amigo ou familiar que merece viver algo novo.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "text",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_feTaqg": {
           "type": "column",
           "settings": {
             "show_border": false,
@@ -111,33 +111,13 @@
             "highlighted_text": "text",
             "highlighted_scribble": "circle"
           }
-        },
-        "column_6Yaqm7": {
-          "type": "column",
-          "settings": {
-            "show_border": false,
-            "text_alignment": "left",
-            "text_alignment_mobile": "left",
-            "image_ratio": "adapt",
-            "heading": "",
-            "heading_size": "text-lg-2xl",
-            "text": "",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "secondary",
-            "button_external": false,
-            "button_icon": true,
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
         }
       },
       "block_order": [
-        "column_4ExzCe",
-        "column_8X4rFU",
         "column_DYiGTR",
-        "column_78YwWU",
-        "column_6Yaqm7"
+        "column_4KHEc4",
+        "column_eFrhdf",
+        "column_feTaqg"
       ],
       "custom_css": [
         "h2 {font-family: Mabry, sans-serif; text-transform: uppercase; font-size: 1.4rem; line-height: 1.1; margin-top: 10px;}",
@@ -149,7 +129,7 @@
       ],
       "settings": {
         "gap": "medium",
-        "columns": 4,
+        "columns": 3,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "heading": "",
