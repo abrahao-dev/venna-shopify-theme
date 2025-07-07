@@ -89,20 +89,7 @@
         <span class="text-sm">{{ max_chars_message_rendered }}</span>
       </div>
 
-      <div class="field">
-        <input
-          class="input is-floating{% if form.errors contains 'send_on' %} invalid{% endif %}"
-          autocomplete="send_on"
-            type="date"
-            id="Recipient-send-on-{{ section_id }}-{{ product_id }}"
-            name="properties[Send on]"
-            placeholder="{{ 'recipient.form.send_on' | t }}"
-            pattern="\d{4}-\d{2}-\d{2}"
-            value="{{ form.send_on }}"
-        />
-        <label class="label is-floating" for="Recipient-send-on-{{ section_id }}-{{ product_id }}">{{ 'recipient.form.send_on_label' | t }}</label>
-        {%- render 'icon', icon: 'calendar', size: 'sm', class: 'stroke-1 absolute pointer-events-none' -%}
-      </div>
+      
     </div>
     <input
       type="hidden"
