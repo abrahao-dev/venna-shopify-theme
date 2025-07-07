@@ -109,7 +109,7 @@
       ],
       "settings": {
         "gap": "medium",
-        "columns": 4,
+        "columns": 3,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "heading": "",
