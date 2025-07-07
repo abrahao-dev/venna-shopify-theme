@@ -11,6 +11,7 @@
   "sections": {
     "main-collection-banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "transparent_header": true,
         "show_image": true,
