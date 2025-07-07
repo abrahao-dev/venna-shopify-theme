@@ -45,7 +45,7 @@
             "image_ratio": "adapt",
             "heading": "",
             "heading_size": "text-lg-2xl",
-            "text": "<p>Forget the obvious gifts. Give something that moves, connects, and stays in memory: a Venna experience.</p>",
+            "text": "<p><strong>Gift unforgettable moments</strong><br/>Forget the obvious gifts. Offer something that moves, connects, and stays in memory: a Venna experience.</p>",
             "button_label": "",
             "button_link": "",
             "button_style": "secondary",
@@ -55,7 +55,7 @@
             "highlighted_scribble": "circle"
           }
         },
-        "column_eFrhdf": {
+        "column_xryzyy": {
           "type": "column",
           "settings": {
             "show_border": false,
@@ -64,7 +64,7 @@
             "image_ratio": "adapt",
             "heading": "",
             "heading_size": "text-lg-2xl",
-            "text": "<p>Whether it’s a surprise dinner or brunch with strangers who become companions, or an entire month of shared meals filled with great conversations, laughter, and discoveries — this is the perfect gift for that friend or family member who deserves to experience something new.</p>",
+            "text": "<p>We've noticed something beautiful: the longer you're part of Venna, the <em>richer</em> the experience becomes. Whether you start with a month or a year-long commitment, you'll find yourself at a table where you <em>belong</em>.</p>",
             "button_label": "",
             "button_link": "",
             "button_style": "secondary",
@@ -74,7 +74,7 @@
             "highlighted_scribble": "circle"
           }
         },
-        "column_feTaqg": {
+        "column_XNkRRW": {
           "type": "column",
           "settings": {
             "show_border": false,
@@ -83,7 +83,7 @@
             "image_ratio": "adapt",
             "heading": "",
             "heading_size": "text-lg-2xl",
-            "text": "<p>It can be to celebrate, to say thank you, to give back, or simply to surprise. Whatever the reason, giving a Venna experience is a heartfelt gesture that lasts forever.</p>",
+            "text": "<p>Whether it's a surprise dinner or brunch with strangers who become companions, or a whole month of dinners filled with good conversations, laughter, and discoveries — this is the perfect gift for that friend or family member who deserves to experience something new.</p>",
             "button_label": "",
             "button_link": "",
             "button_style": "secondary",
@@ -96,10 +96,9 @@
       },
       "block_order": [
         "column_DYiGTR",
-        "column_eFrhdf",
-        "column_feTaqg"
+        "column_xryzyy",
+        "column_XNkRRW"
       ],
-      "disabled": true,
       "custom_css": [
         "h2 {font-family: Mabry, sans-serif; text-transform: uppercase; font-size: 1.4rem; line-height: 1.1; margin-top: 10px;}",
         "em {font-style: normal; color: #62010a;}",
@@ -110,7 +109,7 @@
       ],
       "settings": {
         "gap": "medium",
-        "columns": 3,
+        "columns": 4,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "heading": "",
