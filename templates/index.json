@@ -490,6 +490,129 @@
         "rounded": false
       }
     },
+    "multicolumn_EkPYKY": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_zPQL7w": {
+          "type": "column",
+          "settings": {
+            "show_border": true,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image_ratio": "adapt",
+            "heading": "",
+            "heading_size": "text-base-xl",
+            "text": "<p><strong>We Handpick Your People</strong></p><p>We don’t just put people together, we hand-select each person with care, bringing together those who truly click, so every conversation flows and every connection feels destined.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_dfHwN4": {
+          "type": "column",
+          "settings": {
+            "show_border": true,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image_ratio": "adapt",
+            "heading": "",
+            "heading_size": "text-base-xl",
+            "text": "<p><strong>A Feast For The Senses</strong></p><p>This is no ordinary gathering. Every event is set in a breathtaking venue with the finest culinary creations that make every shared moment around the table something to savor and remember.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_i9N6py": {
+          "type": "column",
+          "settings": {
+            "show_border": true,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image_ratio": "adapt",
+            "heading": "",
+            "heading_size": "text-base-xl",
+            "text": "<p><strong>The End of Small Talk</strong></p><p>The people you’re meeting is a mystery until the day of, adding a touch of anticipation and adventure. Get ready to immerse yourself in unexpected experiences, exceptional food, and warm connections.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_eJnHbt": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image_ratio": "adapt",
+            "heading": "",
+            "heading_size": "text-2xl lg:text-3xl",
+            "text": "<h2>Beyond exclusive<em><br/> – It’s Venna.</em></h2>",
+            "button_label": "Learn more",
+            "button_link": "shopify://pages/about",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_zPQL7w",
+        "column_dfHwN4",
+        "column_i9N6py",
+        "column_eJnHbt"
+      ],
+      "custom_css": [
+        ".multicolumn-card.with-border {background-color: white; border-radius: 4px; border: 0; padding-top: 10px; padding-bottom: 10px;}",
+        "strong {font-family: \"AcademicaLightPro-Italic\", serif; font-weight: 300; font-style: italic; text-transform: none; font-size: 16px;}",
+        "h2,.h2 {font-family: \"AcademicaLightPro-Italic\", serif; font-weight: 300; font-style: normal; text-transform: none; font-size: 24px; padding-top: 30px; padding-bottom: 30px; margin-top: 0px; margin-bottom: 0px;}"
+      ],
+      "settings": {
+        "gap": "medium",
+        "columns": 4,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": false,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "rgba(0,0,0,0)",
+        "color_background": "rgba(0,0,0,0)",
+        "gradient_background": "",
+        "color_highlight": "rgba(0,0,0,0)",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 68,
+        "padding_bottom": 68,
+        "divider": false,
+        "full_width": true,
+        "rounded": false
+      }
+    },
     "portfolio_j9NXdm": {
       "type": "portfolio",
       "blocks": {
@@ -712,129 +835,6 @@
         "rounded": true
       }
     },
-    "multicolumn_EkPYKY": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_zPQL7w": {
-          "type": "column",
-          "settings": {
-            "show_border": true,
-            "text_alignment": "left",
-            "text_alignment_mobile": "left",
-            "image_ratio": "adapt",
-            "heading": "",
-            "heading_size": "text-base-xl",
-            "text": "<p><strong>We Handpick Your People</strong></p><p>We don’t just put people together, we hand-select each person with care, bringing together those who truly click, so every conversation flows and every connection feels destined.</p>",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "secondary",
-            "button_external": false,
-            "button_icon": true,
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "column_dfHwN4": {
-          "type": "column",
-          "settings": {
-            "show_border": true,
-            "text_alignment": "left",
-            "text_alignment_mobile": "left",
-            "image_ratio": "adapt",
-            "heading": "",
-            "heading_size": "text-base-xl",
-            "text": "<p><strong>A Feast For The Senses</strong></p><p>This is no ordinary gathering. Every event is set in a breathtaking venue with the finest culinary creations that make every shared moment around the table something to savor and remember.</p>",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "secondary",
-            "button_external": false,
-            "button_icon": true,
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "column_i9N6py": {
-          "type": "column",
-          "settings": {
-            "show_border": true,
-            "text_alignment": "left",
-            "text_alignment_mobile": "left",
-            "image_ratio": "adapt",
-            "heading": "",
-            "heading_size": "text-base-xl",
-            "text": "<p><strong>The End of Small Talk</strong></p><p>The people you’re meeting is a mystery until the day of, adding a touch of anticipation and adventure. Get ready to immerse yourself in unexpected experiences, exceptional food, and warm connections.</p>",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "secondary",
-            "button_external": false,
-            "button_icon": true,
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "column_eJnHbt": {
-          "type": "column",
-          "settings": {
-            "show_border": false,
-            "text_alignment": "left",
-            "text_alignment_mobile": "left",
-            "image_ratio": "adapt",
-            "heading": "",
-            "heading_size": "text-2xl lg:text-3xl",
-            "text": "<h2>Beyond exclusive<em><br/> – It’s Venna.</em></h2>",
-            "button_label": "Learn more",
-            "button_link": "shopify://pages/about",
-            "button_style": "secondary",
-            "button_external": false,
-            "button_icon": true,
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        }
-      },
-      "block_order": [
-        "column_zPQL7w",
-        "column_dfHwN4",
-        "column_i9N6py",
-        "column_eJnHbt"
-      ],
-      "custom_css": [
-        ".multicolumn-card.with-border {background-color: white; border-radius: 4px; border: 0; padding-top: 10px; padding-bottom: 10px;}",
-        "strong {font-family: \"AcademicaLightPro-Italic\", serif; font-weight: 300; font-style: italic; text-transform: none; font-size: 16px;}",
-        "h2,.h2 {font-family: \"AcademicaLightPro-Italic\", serif; font-weight: 300; font-style: normal; text-transform: none; font-size: 24px; padding-top: 30px; padding-bottom: 30px; margin-top: 0px; margin-bottom: 0px;}"
-      ],
-      "settings": {
-        "gap": "medium",
-        "columns": 4,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "heading": "",
-        "heading_size": "title-md",
-        "heading_alignment": "text-left md:items-end md:flex-row",
-        "heading_tag": "h2",
-        "subheading": "",
-        "description": "",
-        "button_label": "",
-        "button_link": "",
-        "button_external": false,
-        "button_icon": false,
-        "highlighted_text": "none",
-        "highlighted_scribble": "circle",
-        "color_text": "rgba(0,0,0,0)",
-        "color_background": "rgba(0,0,0,0)",
-        "gradient_background": "",
-        "color_highlight": "rgba(0,0,0,0)",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 68,
-        "padding_bottom": 68,
-        "divider": false,
-        "full_width": true,
-        "rounded": false
-      }
-    },
     "multicolumn_tAMpqi": {
       "type": "multicolumn",
       "blocks": {
@@ -995,8 +995,8 @@
     "image_with_text_rfriCm",
     "multicolumn_pGRttf",
     "multicolumn_76NPt9",
-    "portfolio_j9NXdm",
     "multicolumn_EkPYKY",
+    "portfolio_j9NXdm",
     "multicolumn_tAMpqi",
     "blog_posts_iqRrXd",
     "featured_collection_3EEbJG"
