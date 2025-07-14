@@ -616,50 +616,6 @@
     "portfolio_j9NXdm": {
       "type": "portfolio",
       "blocks": {
-        "profile_RkkkDw": {
-          "type": "profile",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/amazonico-madrid-3.jpg",
-            "heading": "Madrid, Spain",
-            "text": "<p>@AMAZÓNICO</p>",
-            "color_text": "#ffffff",
-            "color_background": "#171717"
-          }
-        },
-        "profile_pmifUf": {
-          "type": "profile",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/NOZOMISUSHIBAR_valencia.webp",
-            "heading": "Valencia, Spain",
-            "text": "<p>@NOZOMISUSHIBAR </p>",
-            "color_text": "#ffffff",
-            "color_background": "#171717"
-          }
-        },
-        "profile_e3bhw6": {
-          "type": "profile",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/semea-porto.jpg",
-            "heading": "Porto, Portugal",
-            "text": "<p>@SEMEA </p>",
-            "color_text": "#ffffff",
-            "color_background": "#171717"
-          }
-        },
-        "profile_ytjQbQ": {
-          "type": "profile",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/oficio_lisboa_1.webp",
-            "heading": "Lisbon, Portugal",
-            "text": "<p>@OFICIOLISBOA </p>",
-            "color_text": "#ffffff",
-            "color_background": "#171717"
-          }
-        },
         "profile_LbYhCU": {
           "type": "profile",
           "disabled": true,
@@ -691,17 +647,6 @@
             "color_background": "#171717"
           }
         },
-        "profile_fQR7WF": {
-          "type": "profile",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/enigma-barcelona.jpg",
-            "heading": "Barcelona, Spain",
-            "text": "",
-            "color_text": "#ffffff",
-            "color_background": "#171717"
-          }
-        },
         "profile_RxhxpV": {
           "type": "profile",
           "disabled": true,
@@ -713,17 +658,6 @@
             "color_background": "#171717"
           }
         },
-        "profile_TbwK8L": {
-          "type": "profile",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/GO-1929-Trattoria-Moderna.jpg",
-            "heading": "Goiânia, Brazil",
-            "text": "<p>@1929TRATTORIA </p>",
-            "color_text": "#ffffff",
-            "color_background": "#171717"
-          }
-        },
         "profile_99PD8P": {
           "type": "profile",
           "disabled": true,
@@ -731,17 +665,6 @@
             "image": "shopify://shop_images/paco-madrid.jpg",
             "heading": "Madrid, Spain",
             "text": "<p>@PACORONCERORESTAURANTE</p>",
-            "color_text": "#ffffff",
-            "color_background": "#171717"
-          }
-        },
-        "profile_CmGJ4P": {
-          "type": "profile",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/ALMA_lisboa_4.webp",
-            "heading": "Lisbon, Portugal",
-            "text": "<p>@ALMA </p>",
             "color_text": "#ffffff",
             "color_background": "#171717"
           }
@@ -776,24 +699,94 @@
             "color_text": "#ffffff",
             "color_background": "#171717"
           }
+        },
+        "profile_EfcdCe": {
+          "type": "profile",
+          "settings": {
+            "image": "shopify://shop_images/346936744_5470485666387378_1866613122954719625_n.jpg",
+            "heading": "São Paulo, Brazil",
+            "text": "",
+            "color_text": "#ffffff",
+            "color_background": "#171717"
+          }
+        },
+        "profile_kCbnTb": {
+          "type": "profile",
+          "settings": {
+            "image": "shopify://shop_images/394931411_302615122713423_5185458296575267705_n.jpg",
+            "heading": "Rio de Janeiro, Brazil",
+            "text": "",
+            "color_text": "#ffffff",
+            "color_background": "#171717"
+          }
+        },
+        "profile_d3mkAe": {
+          "type": "profile",
+          "settings": {
+            "image": "shopify://shop_images/Rio_de_Janeiro_Brasil.jpg",
+            "heading": "São Paulo, Brazil",
+            "text": "",
+            "color_text": "#ffffff",
+            "color_background": "#171717"
+          }
+        },
+        "profile_gPkKKh": {
+          "type": "profile",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2025-07-11_at_16.18.35.jpg",
+            "heading": "Rio de Janeiro, Brazil",
+            "text": "",
+            "color_text": "#ffffff",
+            "color_background": "#171717"
+          }
+        },
+        "profile_V8aCEA": {
+          "type": "profile",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2025-07-11_at_16.24.32.jpg",
+            "heading": "São Paulo, Brazil",
+            "text": "",
+            "color_text": "#ffffff",
+            "color_background": "#171717"
+          }
+        },
+        "profile_RkKTak": {
+          "type": "profile",
+          "settings": {
+            "image": "shopify://shop_images/499864986_662185083396910_1477175038424532075_n.jpg",
+            "heading": "Rio de Janeiro, Brazil",
+            "text": "",
+            "color_text": "#ffffff",
+            "color_background": "#171717"
+          }
+        },
+        "profile_qJCqc9": {
+          "type": "profile",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2025-07-11_at_16.25.17.jpg",
+            "heading": "São Paulo, Brazil",
+            "text": "",
+            "color_text": "#ffffff",
+            "color_background": "#171717"
+          }
         }
       },
       "block_order": [
-        "profile_RkkkDw",
-        "profile_pmifUf",
-        "profile_e3bhw6",
-        "profile_ytjQbQ",
         "profile_LbYhCU",
         "profile_hMzCgH",
         "profile_taCc33",
-        "profile_fQR7WF",
         "profile_RxhxpV",
-        "profile_TbwK8L",
         "profile_99PD8P",
-        "profile_CmGJ4P",
         "profile_MLPtHF",
         "profile_jxiU49",
-        "profile_U4Da9D"
+        "profile_U4Da9D",
+        "profile_EfcdCe",
+        "profile_kCbnTb",
+        "profile_d3mkAe",
+        "profile_gPkKKh",
+        "profile_V8aCEA",
+        "profile_RkKTak",
+        "profile_qJCqc9"
       ],
       "custom_css": [
         ".lg\\:text-3xl {font-family: \"GT-America-Standard-Regular\", Arial, sans-serif; font-size: 14px !important; font-family: var(--font-body-family); line-height: 1.1; letter-spacing: 0.2px;}",
