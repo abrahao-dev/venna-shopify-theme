@@ -647,17 +647,6 @@
             "color_background": "#171717"
           }
         },
-        "profile_RxhxpV": {
-          "type": "profile",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Pousada-tutabel-BA.jpg",
-            "heading": "Trancoso, Brazil",
-            "text": "<p>@pousadatutabel</p>",
-            "color_text": "#ffffff",
-            "color_background": "#171717"
-          }
-        },
         "profile_MLPtHF": {
           "type": "profile",
           "disabled": true,
@@ -768,13 +757,22 @@
             "color_text": "#ffffff",
             "color_background": "#171717"
           }
+        },
+        "profile_ynGXUA": {
+          "type": "profile",
+          "settings": {
+            "image": "shopify://shop_images/518797234_18366817906151425_8794839110685155776_n.jpg",
+            "heading": "São Paulo, Brazil",
+            "text": "",
+            "color_text": "#ffffff",
+            "color_background": "#171717"
+          }
         }
       },
       "block_order": [
         "profile_LbYhCU",
         "profile_hMzCgH",
         "profile_taCc33",
-        "profile_RxhxpV",
         "profile_MLPtHF",
         "profile_jxiU49",
         "profile_U4Da9D",
@@ -785,7 +783,8 @@
         "profile_V8aCEA",
         "profile_RkKTak",
         "profile_qJCqc9",
-        "profile_tLdwU8"
+        "profile_tLdwU8",
+        "profile_ynGXUA"
       ],
       "custom_css": [
         ".lg\\:text-3xl {font-family: \"GT-America-Standard-Regular\", Arial, sans-serif; font-size: 14px !important; font-family: var(--font-body-family); line-height: 1.1; letter-spacing: 0.2px;}",
