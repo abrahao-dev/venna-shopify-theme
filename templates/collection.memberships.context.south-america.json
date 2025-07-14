@@ -8,9 +8,9 @@
  * ------------------------------------------------------------
  */
 {
-  "parent": "index.json",
+  "parent": "collection.memberships.json",
   "context": {
-    "market": "us"
+    "market": "south-america"
   },
   "sections": {}
 }

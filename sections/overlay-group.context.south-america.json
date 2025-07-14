@@ -8,9 +8,9 @@
  * ------------------------------------------------------------
  */
 {
-  "markets": {
-    "us": {
-      "parent": "@default"
-    }
-  }
+  "parent": "overlay-group.json",
+  "context": {
+    "market": "south-america"
+  },
+  "sections": {}
 }
