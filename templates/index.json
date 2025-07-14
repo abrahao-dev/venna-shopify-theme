@@ -658,17 +658,6 @@
             "color_background": "#171717"
           }
         },
-        "profile_99PD8P": {
-          "type": "profile",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/paco-madrid.jpg",
-            "heading": "Madrid, Spain",
-            "text": "<p>@PACORONCERORESTAURANTE</p>",
-            "color_text": "#ffffff",
-            "color_background": "#171717"
-          }
-        },
         "profile_MLPtHF": {
           "type": "profile",
           "disabled": true,
@@ -769,6 +758,16 @@
             "color_text": "#ffffff",
             "color_background": "#171717"
           }
+        },
+        "profile_tLdwU8": {
+          "type": "profile",
+          "settings": {
+            "image": "shopify://shop_images/467000091_573503348590955_1293440056760416748_n.jpg",
+            "heading": "Rio de Janeiro, Brazil",
+            "text": "",
+            "color_text": "#ffffff",
+            "color_background": "#171717"
+          }
         }
       },
       "block_order": [
@@ -776,7 +775,6 @@
         "profile_hMzCgH",
         "profile_taCc33",
         "profile_RxhxpV",
-        "profile_99PD8P",
         "profile_MLPtHF",
         "profile_jxiU49",
         "profile_U4Da9D",
@@ -786,7 +784,8 @@
         "profile_gPkKKh",
         "profile_V8aCEA",
         "profile_RkKTak",
-        "profile_qJCqc9"
+        "profile_qJCqc9",
+        "profile_tLdwU8"
       ],
       "custom_css": [
         ".lg\\:text-3xl {font-family: \"GT-America-Standard-Regular\", Arial, sans-serif; font-size: 14px !important; font-family: var(--font-body-family); line-height: 1.1; letter-spacing: 0.2px;}",
