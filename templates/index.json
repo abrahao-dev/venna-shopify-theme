@@ -935,8 +935,7 @@
       "custom_css": [
         ".product-card__title {font-family: Mabry, sans-serif !important; font-size: 16px !important; text-transform: uppercase;}",
         ".price__regular {font-family: Mabry, sans-serif !important; font-size: 16px !important;}",
-        ".product-card__top .caption {font-family: \"AcademicaLightPro-Italic\", serif !important; font-weight: 300; font-size: 14px !important; text-transform: none; letter-spacing: 0; color: #123450;}",
-        ".price__sale {display: none !important;}"
+        ".product-card__top .caption {font-family: \"AcademicaLightPro-Italic\", serif !important; font-weight: 300; font-size: 14px !important; text-transform: none; letter-spacing: 0; color: #123450;}"
       ],
       "settings": {
         "collection": "memberships",
